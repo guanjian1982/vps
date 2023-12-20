@@ -1,0 +1,19 @@
+# VISUALIZERROOT = '/public/eda/mentor/visualizer_debug_environment/2022.1_2/visualizer/linux_x86_64/VisualizerRls'
+# USER = 'jian.guan'
+# Mentor Graphics software version 2022.1_2 (Build on Apr  2 2022)
+# Copyright (C) 1999-2023 by Mentor Graphics All rights reserved.
+
+# visualizer -red
+# Opening log file /tmp/visscratch.uCwVsj/hdloffice.log
+
+# 11:00:40: Loading design data...
+# 11:00:40: Loaded  design units
+# 11:00:40: Loaded  design hierarchy
+# Started   initializing Veloce data server at 11:00:40
+# Completed initializing Veloce data server at 11:00:47
+# Did not find any variable to add to the Pathbrowser
+# Window layout 'Default' saved in file: /home/jian.guan/.visualizer/layout.xml
+# Start  : Sat 16 Dec 2023 11:00:22 AM CST
+# End    : Sat 16 Dec 2023 11:15:37 AM CST
+# VMSize : 1103964 kB
+# VMPeak : 1162104 kB

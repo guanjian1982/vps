@@ -1,0 +1,30 @@
+create_clock -name clk_a  [get_ports clk_a] -period 200
+create_clock -name clk_b  [get_ports clk_b] -period 400
+
+set_property RATIOCHRONOUS_GROUP clk_a [get_clocks clk_a]
+set_property RATIOCHRONOUS_GROUP clk_b [get_clocks clk_b]
+
+set_clock_groups -asynchronous -group [get_clocks -include_generated_clocks clk_a]
+set_clock_groups -asynchronous -group [get_clocks -include_generated_clocks clk_b]
+
+set_property IGNORE_RELATIVE_SCALING true [get_clocks clk_a]
+set_property IGNORE_RELATIVE_SCALING true [get_clocks clk_b]
+
+#set_assignment [get_cells axi4_sm] -targets [get_hw_fpgas MB1_FA1]
+
+
+##create_clocks -name in_clk [get_ports in_clk] -period 10
+#set_property PRESERVE_PERIOD TRUE [get_clocks in_clk]
+#set_property DONT_USE TRUE [get_hw_tracks MB1.FA1.FSVA3824.AU48]
+
+
+
+
+
+
+
+
+
+
+
+
