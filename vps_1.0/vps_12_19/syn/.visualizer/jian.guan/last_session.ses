@@ -1,0 +1,55 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session version="0.2" skip_do_file="0" featureversion="0.3">
+ <app argc="5">
+  <argv pos="0" value="/public/eda/mentor/visualizer_debug_environment/2022.1_2/visualizer/linux_x86_64/VisualizerRls/bin/hdlclient"/>
+  <argv pos="1" value="+veloceconfig+redcomp.out/pbannotate/outputs/veloce.config"/>
+  <argv pos="2" value="+designfile+redcomp.out/visualizer/_red_veloce.med/visualizer.out/VIS_DATA/design.bin"/>
+  <argv pos="3" value="+external_client=/public/eda/mentor/vps/2022.12.2/partitioner/lib/libvxcprobelist.so"/>
+  <argv pos="4" value="+vpsmode"/>
+ </app>
+ <window_config>
+  <dockareas right="1255" bottom="114" left="269" top="0"/>
+  <taborder right="redprobelist+schematic+variables+" bottom="transcript+" left="structure+"/>
+  <activetab activewindow="redprobelist" right="redprobelist" bottom="transcript" left="structure"/>
+  <window undocked="0" type="structure" visible="1" dock_location="left" y="0" x="0"/>
+  <window title="Probe Settings" undocked="0" type="redprobelist" visible="1" dock_location="right" y="0" x="0"/>
+  <window undocked="0" type="schematic" visible="1" dock_location="right" y="0" x="0"/>
+  <window undocked="0" type="variables" visible="1" dock_location="right" y="0" x="0"/>
+  <window undocked="0" type="transcript" visible="1" dock_location="bottom" y="0" x="0"/>
+  <window height="878" undocked="0" type="rtl" width="1661" visible="1" y="101" x="109"/>
+  <window undocked="0" type="testbench" visible="0" dock_location="left" y="0" x="0"/>
+  <window height="1017" undocked="0" type="wave" width="1920" visible="0" dock_location="left" y="23" x="0"/>
+  <window height="735" undocked="1" type="wave" width="1302" visible="0" dock_location="bottom" id="1" y="80" x="160"/>
+  <window undocked="0" type="source" visible="1" dock_location="center" y="0" x="0"/>
+  <window height="251" undocked="0" type="generallist" width="256" visible="0" dock_location="right" y="0" x="0"/>
+ </window_config>
+ <wave_file_mgr>
+  <waveFile fileName="/fpga-project/SOC/jian.guan/jian.guan/vps/syn/redcomp.out/pbannotate/outputs/veloce.config" waveType="2" tagName="veloce_config"/>
+ </wave_file_mgr>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser primary="true" instancename="tb" clock_domain_mode="true"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 140"/>
+   </sourcetclcommands>
+  </main_window>
+  <watchTower_cur_setting curRadix="8" curDisplayTimeUnit="-9" customDisplayTimeUnitListStr="" curDisplayTimeUnitStr="1ns" curActiveWaveFile="veloce_config">
+   <curTime lowtime="0" hightime="0"/>
+  </watchTower_cur_setting>
+  <drv_rec_data drivers="true"/>
+  <structure selection="tb"/>
+  <schematic trace_action="0" wf_diff="0" src_sync="1" time_sync="1" value_tooltip="0" zoom_and_center="0" schem_sync="1" show_values="0" clock_domain="0" grey_mode="0" upf_action="0">
+   <command value="tb"/>
+   <cur_viewport scroll_pos="0 -77" page_num="1" zoom_factor="0.801762"/>
+  </schematic>
+  <variables UPF="0" CA="1" VA="0"/>
+  <transcript>
+   <window height="114" width="1661" y="736" x="0"/>
+  </transcript>
+ </gui>
+ <wave_mgr sync_time_range="0"/>
+ <windows/>
+ <dut selection="tb"/>
+</session>

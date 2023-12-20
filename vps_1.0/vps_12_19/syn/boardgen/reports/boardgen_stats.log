@@ -1,0 +1,28 @@
+-----------------------------------------------------------
+-- General Information --
+-- Veloce Prototyping System version: 2022.12.2
+-- Veloce Prototyping System build: 5626015
+-- Time: Wed Dec 13 20:30:23 2023
+-----------------------------------------------------------
+
+Hostname: fpga07.cixcomputing.cn
+-- Memory info --
+	MemTotal                                : 32461088 kB         
+	MemFree                                 : 9611752 kB          
+-- Uptime info --
+	The uptime                              : 101577.74  (seconds)
+	The time spent in the idle task         : 1996257.27 (seconds)
+-- CPU info --
+	Model	: 12th Gen Intel(R) Core(TM) i7-12700
+		20 cores with bogomips 4224.00
+	Total number of processor cores	: 20
+-- Resource limits granted by the Operating System --
+	Stack limit: soft limit: 8388608 bytes / hard limit: unlimited
+	Maximum number of opened files: soft limit: 1024 files / hard limit: 262144 files
+--------------------------------
+
+Wall time  | User CPU time | System CPU time | Virtual memory + inc | Resident set + inc | load/5m | Cumulative Wall time | <Tool section>
+     0.00s |         0.00s |           0.00s |      98 +      98 MB |     11 +     11 MB |    4.04 |                0.00s | <boardgen/begin>
+     2.91s |         0.95s |           0.03s |     171 +      73 MB |     14 +      2 MB |    4.05 |                2.92s | <Processing inputs>
+     2.92s |         0.95s |           0.03s |     171 +      73 MB |     14 +      2 MB |    4.05 |                2.92s | <boardgen/end>
+
